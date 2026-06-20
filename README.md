@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# CRM Integration Platform
 
-# Run and deploy your AI Studio app
+A high-performance modern Sales & CRM CRM middleware dashboard, featuring automated and manual bi-directional **Salesforce CRM** state synchronization, comprehensive contact dossiers, pipeline lead scoring, and **Google Gemini AI**-powered qualification insights.
 
-This contains everything you need to run your app locally.
+## 🚀 Key Features
 
-View your app in AI Studio: https://ai.studio/apps/50ffad33-8b75-44a0-a74d-dbd461f23a13
+*   **Pipeline Analytics Dashboard**: Intuitive, responsive KPI metrics tracking Conversion Rates, Acquisition channels, and monthly pipeline growth patterns.
+*   **Bi-directional Salesforce Sync**: Configurable bi-directional data alignment with granular conflict resolution policies ("Keep Local" vs. "Keep Salesforce").
+*   **Dual-Registry Workspace**: Robust, searchable grid registers for both pipeline leads and contact stakeholders.
+*   **Gemini AI Lead Insights**: Automatic qualification assessment utilizing the latest `@google/genai` model SDK to score opportunities and write actionable next-step bullet suggestions.
+*   **Role-Based Security**: Built-in mock roles (Admin, Sales Manager, Sales Executive) illustrating professional enterprise permissions gates.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+*   **Frontend**: React 19, Tailwind CSS, Lucide icons, Motion.
+*   **Backend**: Node.js, Express, tsx (dev-runner), esbuild compiler.
+*   **AI Integration**: Google Gemini 3.5 Flash Model SDK.
 
+## 📦 Local Setup Instructions
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+- Node.js v18.x or above
+- A Salesforce Developer instance client credential details (Optional)
+- A Google Gemini API Key
+
+### Running Locally
+1. Extract the bundle and open your terminal:
+   ```bash
+   npm install
