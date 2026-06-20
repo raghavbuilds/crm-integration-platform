@@ -1,0 +1,6 @@
+{
+  "name": "CRM Integration Platform",
+  "description": "Centralized sales dashboard for tracking customer leads and contacts, featuring automated and manual bi-directional Salesforce CRM synchronization, activity tracking, conflict resolution, and Gemini AI-powered lead insight scoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
